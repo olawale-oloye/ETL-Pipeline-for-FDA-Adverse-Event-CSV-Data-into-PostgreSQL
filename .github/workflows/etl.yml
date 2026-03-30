@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      DB_USER: ${{var.USER}}
+      DB_USER: ${{vars.USER}}
       DB_PASSWORD: ${{secrets.PASS}}
       DB_HOST: ${{secrets.HOST}}
       DB_PORT: ${{secrets.PORT}}
-      DB_NAME: ${{var.DB}}
+      DB_NAME: ${{vars.DB}}
       CSV_FILE: data/fda_adverse_events_2015_2026_CLEAN.csv
       DB_SCHEMA: staging
       DB_TABLE: adverse_events_raw
