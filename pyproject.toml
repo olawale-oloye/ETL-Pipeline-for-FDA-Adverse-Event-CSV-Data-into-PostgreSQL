@@ -1,0 +1,22 @@
+[tool.pylint.main]
+ignore = [".venv", "__pycache__"]
+init-hook = 'import sys; sys.path.append(".")'
+py-version = "3.12"
+
+[tool.pylint.format]
+max-line-length = 100
+
+[tool.pylint."messages control"]
+disable = [
+  "C0114", # missing-module-docstring
+  "C0116", # missing-function-docstring
+]
+
+[tool.mypy]
+python_version = "3.14"
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unreachable = true
+disallow_untyped_defs = true
+no_implicit_optional = true
+check_untyped_defs = true

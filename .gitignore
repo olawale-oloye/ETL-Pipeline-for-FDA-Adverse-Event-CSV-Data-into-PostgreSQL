@@ -1,0 +1,34 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# virtual environment
+venv/
+.venv/
+
+# logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# data files
+data/
+*.csv
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# pylint
+.pylint.d/
+
+# optional: ignore workflows
+# comment this line if you want workflows tracked
+.github/workflows/
