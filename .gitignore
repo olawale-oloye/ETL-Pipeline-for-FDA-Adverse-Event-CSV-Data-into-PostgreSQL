@@ -17,8 +17,8 @@ venv/
 .idea/
 
 # data files
-data/
-*.csv
+# data/
+# *.csv
 
 # pytest
 .pytest_cache/
@@ -31,4 +31,4 @@ data/
 
 # optional: ignore workflows
 # comment this line if you want workflows tracked
-.github/workflows/
+# .github/workflows/
